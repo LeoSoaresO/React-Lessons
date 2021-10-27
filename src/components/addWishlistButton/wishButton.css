@@ -1,0 +1,63 @@
+.wishButton {
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 20px;
+    transition: all 0.2s;
+    border: none;
+    background-color: transparent;  
+}
+
+.wishActive .cont {
+    padding: 10px;
+    background: #DA4B4F;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+}
+
+.wishActive .cont:hover {
+    transition: all 0.2s;
+    background: #DA4B4F;
+}
+
+.wishActive .cont svg {
+    transition: all 0.2s;
+    background: none;
+    fill: #fff;
+    stroke: #fff;
+}
+
+.wishActive .cont svg:hover {
+    transition: all 0.2s;
+    stroke: #fff;
+    fill: #fff;
+}
+
+.cont {
+    padding: 10px;
+    background: #F2F3F6;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont:hover {
+    transition: all 0.2s;
+    background: #FEE5EC;
+}
+
+svg {
+    background: #F2F3F6;
+    fill: #F2F3F6;
+    stroke: #1C1C1C;
+}
+
+.cont svg:hover{
+    background: transparent;
+    transition: all 0.2s;
+    stroke: #DA4B4F;
+    fill: #FEE5EC;
+}
